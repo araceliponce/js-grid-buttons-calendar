@@ -35,6 +35,12 @@ firstDayCurrentMonth.getDay(); //4 (jueves)
 const firstDayJanuary = getFirstDayOfMonth(2023, 0);
 console.log(firstDayJanuary); // Wed Jan 01 2025
 
+//NAMES FOR CALENDAR__HEADER https://stackoverflow.com/a/18648314 there is also narrow (only first letter of month), can use 'es' 'default'
+let currentMonthShortName = new Date().toLocaleString('es', { month: 'short' }) //lo obtienes a partir de un object date, no funciona usando currentMonth (que es un int number)
+
+document.querySelector('.calendar__year').textContent = currentYear; //2022
+document.querySelector('.calendar__month').textContent = currentMonthShortName;
+
 
 //CREATE BTNS AND PLACE THE FIRST ONE ON THEIR COLUMN
 //35 instead of daysInCurrentMonth
