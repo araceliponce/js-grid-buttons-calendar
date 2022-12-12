@@ -15,8 +15,9 @@ body {
 }
 
 button {
-  border: none;
+  border: 0;
   background-color: transparent;
+  outline: .2rem solid transparent;
 }
 
 .calendar {
@@ -86,10 +87,6 @@ button {
 
 .calendar__dates button {
   cursor: pointer;
-  outline: 0;
-  border: 0;
-  background: transparent;
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   justify-self: center;
   align-self: center;
