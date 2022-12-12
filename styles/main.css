@@ -106,8 +106,7 @@ button {
 
 .calendar__dates button:first-child {
   grid-column: 1;
-  /* 3 */
-
+  /* replaced later with main.js */
 }
 
 .calendar__dates button:hover {
