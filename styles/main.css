@@ -1,10 +1,10 @@
-:root {}
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
-/* calendar css started from https://codepen.io/alvarotrigo/pen/xxYVrmK */
+  /* calendar css started from https://codepen.io/alvarotrigo/pen/xxYVrmK */
 
 body {
   background: #fad390;
-  font-family: "Spectral", serif;
+  font-family: "Rubik", serif;
   display: flex;
   justify-content: center;
   align-items: center;
